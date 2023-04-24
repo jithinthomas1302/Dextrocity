@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Actor&family=Caveat:wght@400;500;600&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+html {
+  background: #1c0c5b;
+  height: auto;
+    }
+
+      body{
+        overflow-x: hidden;
+        height: 100%;
+        margin:0;
+      }
+    
+
+      .cards{
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        padding-top: 5rem;
+        
+      }
+    
+      .cards button:hover
+      {
+        transform: translateY(-20px);
+        transition: all 0.5s ease 0s;
+        transition: ease-out 0.5s;
+      }
+      
+      .subcard{
+        background: linear-gradient(90deg, #3531A9 0%, #916BBF 100%);
+        border-radius: 10px;
+        box-shadow: #916BBF 0px 10px 10px;
+      }
+      #logo1
+      {
+        width: 100px;
+        height: 100px;
+
+        top:0px;
+      }
+      #toplogo
+      {
+        width: 100px;
+        height: 100px;
+        top:5px;
+        left: 50px;
+        position: fixed;
+      }
+      .cardhead
+      {
+        padding-top: 2px;
+        font-size: 30px;
+        font-family: PT Sans;
+        font-weight: 700;
+        color:#fff;
+      }
+      .cardtext
+      {
+        padding-top: 2px;
+        font-size: 18px;
+        font-family: PT Sans;
+        color:#fff;
+      }
+
+      .Rectangle
+      {
+        position: relative;
+width: 110%;
+height: 500px;
+left: 0px;
+top: 100px;
+z-index:-1;
+background: #11024B;
+      }
+
+  #band
+  {
+position: absolute;
+width: 750px;
+height: 500px;
+left: 0px;
+z-index:-1;
+top: 1250px;
+
+  }
+
+  .bandhead
+  {
+    position: absolute;
+left: 810px;
+top: 1350px;
+font-family: PT Sans;
+font-weight: 700;
+z-index:-1;
+font-size: 50px;
+line-height: 60px;
+color: #C996CC;
+text-shadow: #916BBF;
+  }
+
+  .bandp
+  {
+position: absolute;
+left: 810px;
+top: 1475;
+font-family: PT Sans;
+font-weight: 400;
+font-size: 20px;
+z-index:-1;
+line-height: 30px;
+text-align: left;
+width:600px;
+
+color: #C996CC;
+  }
+
+  
+
+  .maximize
+      {
+    position: absolute;
+    left: 530px;
+    top: 1800px;
+    font-family: PT Sans;
+    font-weight: 700;
+    font-size: 50px;
+    z-index:-1;
+    text-align: center;
+    color: #C996CC; 
+      }
+      .maximizetext
+      {
+    position: absolute;
+    left: 270px;
+    top: 1850px;
+    font-family: PT Sans;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    z-index:-1;
+    color: #C996CC;
+    padding-top: 2rem;
+    
+      }
+      #artimg
+      {
+    position: absolute;
+    width: 900px;
+    height: 600px;
+    left: 330px;
+    top: 1950px;
+    z-index:-1;
+    filter: drop-shadow(5px 5px 5px #916BBF);
+      }
+    
+      .rectangle2
+      {
+        width:110%;
+        height: 300px;
+        top: 2580px;
+        left: 0px;
+        position: absolute;
+        background: #11024B;
+      }
+
+      .ellipse{
+        position: absolute;
+width: 282.52px;
+height: 114.78px;
+left: 627px;
+top: 2675px;
+background: #3531A9;
+transform: rotate(-30deg);
+border-radius: 50%;
+      }
+
+     #logo2
+      {
+        position: absolute;
+width: 143px;
+height: 143px;
+left: 730px;
+top: 2650px;
+      }
+
+      .snip1189 {
+        font-family: PT Sans;
+        text-align: center;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 1px;
+        padding-top: 5px;
+      
+      }
+      .snip1189 * {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-transition: all 0.35s ease;
+        transition: all 0.35s ease;
+      }
+      .snip1189 li {
+        display: inline-block;
+        list-style: outside none none;
+        margin: 0 1em;
+        padding: 0;
+      }
+      .snip1189 a {
+        padding: 0.5em 0.8em;
+        margin: 0.2em 0;
+        display: block;
+        color: #fff;
+        position: relative;
+        text-decoration: none;
+      }
+      .snip1189 a:before,
+      .snip1189 a:after {
+        height: 14px;
+        width: 14px;
+        position: absolute;
+        content: '';
+        -webkit-transition: all 0.35s ease;
+        transition: all 0.35s ease;
+        opacity: 0;
+      }
+      .snip1189 a:before {
+        left: 0;
+        top: 0;
+        border-left: 3px solid #916BBF;
+        border-top: 3px solid #916BBF;
+        -webkit-transform: translate(100%, 50%);
+        transform: translate(100%, 50%);
+      }
+      .snip1189 a:after {
+        right: 0;
+        bottom: 0;
+        border-right: 3px solid #916BBF;
+        border-bottom: 3px solid #916BBF;
+        -webkit-transform: translate(-100%, -50%);
+        transform: translate(-100%, -50%);
+      }
+      .snip1189 a:hover,
+      .snip1189 .current a {
+        color: #C996CC;
+      }
+      .snip1189 a:hover:before,
+      .snip1189 .current a:before,
+      .snip1189 a:hover:after,
+      .snip1189 .current a:after {
+        -webkit-transform: translate(0%, 0%);
+        transform: translate(0%, 0%);
+        opacity: 1;
+      }
+      .vignette {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 800px;
+        box-shadow: 0 0 300px #1C0C5B inset;
+      }
+      
+      .slider--container {
+        position: relative; /* "relative", so that h1 and images can be set absolutely */
+        height: 100vh; /* Adjust the height to your needs here */
+        width: 100vw; /* Adjust the width to your needs here */
+        margin: 0 auto;
+        filter: blur(5px);
+        overflow: hidden;
+        border-radius: .125rem;
+        z-index:-1;
+        box-shadow: 0 0 .1rem .125rem rgba(0, 0, 0, 0.25);
+      }
+   
+      .slider--image {
+        position: absolute;
+        z-index: 1;
+        left:0;
+        top:0;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        animation: 45s ease-in-out infinite;
+      } 
+       /* Name of animations and selection of images */
+      .slider--image:nth-of-type(1) {
+        animation-name: slide-01;
+      }
+      .slider--image:nth-of-type(2) {
+        animation-name: slide-02;
+      }
+      .slider--image:nth-of-type(3) {
+        animation-name: slide-03;
+      }
+      
+      /* Images are overlaid and visible or invisible due to different transparency */
+      /* Moving the images with transform: scale & translate */
+        /* Styles for webkit browsers */
+      @-webkit-keyframes slide-01 {
+        0%  { opacity:1; -webkit-transform: scale(1.4) translate(0, 0);}
+        16%  {opacity:1; -webkit-transform: scale(1.2) translate(-20px, -10px);}
+        33%  {opacity:0; -webkit-transform: scale(1.4) translate(0, 0);}
+        50%  {opacity:0;}
+        67%  {opacity:0;}
+        84%  {opacity:0;}
+        100%  {opacity:1; -webkit-transform: scale(1.4) translate(0, 0);}
+      }
+      @-webkit-keyframes slide-02 {
+        0%  { opacity:0;}
+        16%  {opacity:0; -webkit-transform: scale(1.2) translate(-20px, -10px);}
+        33%  {opacity:1; -webkit-transform: scale(1.4) translate(0, 0);}
+        50%  {opacity:1; -webkit-transform: scale(1.2) translate(-20px, 10px);}
+        67%  {opacity:0; -webkit-transform: scale(1.4) translate(0, 0);}
+        84%  {opacity:0;}
+        100%  {opacity:0;}
+      }
+      @-webkit-keyframes slide-03 {
+        0%  { opacity:0;}
+        16%  {opacity:0;}
+        33%  {opacity:0;}
+        50%  {opacity:0; -webkit-transform: scale(1.4) translate(0, 0);}
+        67%  {opacity:1; -webkit-transform: scale(1.4) translate(-20px, 10px);}
+        84%  {opacity:1; -webkit-transform: scale(1.2) translate(20px, -10px);}
+        100%  {opacity:0; -webkit-transform: scale(1.4) translate(0, 0);}
+      }
+      
+        /* Styles for all other browsers */
+      @keyframes slide-01 {
+        0%  { opacity:1; transform: scale(1.4) translate(0, 0);}
+        16%  {opacity:1; transform: scale(1.2) translate(-20px, -10px);}
+        33%  {opacity:0; transform: scale(1.4) translate(0, 0);}
+        50%  {opacity:0;}
+        67%  {opacity:0;}
+        84%  {opacity:0;}
+        100%  {opacity:1; transform: scale(1.4) translate(0, 0);}
+      }
+      @keyframes slide-02 {
+        0%  { opacity:0;}
+        16%  {opacity:0; transform: scale(1.2) translate(-20px, -10px);}
+        33%  {opacity:1; transform: scale(1.4) translate(0, 0);}
+        50%  {opacity:1; transform: scale(1.2) translate(-20px, 10px);}
+        67%  {opacity:0; transform: scale(1.4) translate(0, 0);}
+        84%  {opacity:0;}
+        100%  {opacity:0;}
+      }
+      @keyframes slide-03 {
+        0%  { opacity:0;}
+        16%  {opacity:0;}
+        33%  {opacity:0;}
+        50%  {opacity:0; transform: scale(1.4) translate(0, 0);}
+        67%  {opacity:1; transform: scale(1.4) translate(-20px, 10px);}
+        84%  {opacity:1; transform: scale(1.2) translate(20px, -10px);}
+        100%  {opacity:0; transform: scale(1.4) translate(0, 0);}
+      }
+    
+h1 {
+  font-family: "CoreCircus", sans-serif;
+  font-size: 10vw;
+  text-align: center;
+  line-height: 1;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  color: #fff;
+  letter-spacing: -0.5rem;
+}
+
+h1:before {
+  content: attr(data-heading);
+  position: absolute;
+  overflow: hidden;
+  color: #1C0C5B;
+  width: 100%;
+  z-index: 5;
+  text-shadow: none;
+  left: 0%;
+  text-align: left;
+  animation: flicker 3s linear infinite;
+}
+
+@keyframes flicker {
+  0%,
+  19.999%,
+  22%,
+  62.999%,
+  64%,
+  64.999%,
+  70%,
+  100% {
+    opacity: 0.99;
+    text-shadow: -1px -1px 0 rgba(255, 255, 255, 0.4), 1px -1px 0 rgba(255, 255, 255, 0.4), -1px 1px 0 rgba(255, 255, 255, 0.4), 1px 1px 0 rgba(255, 255, 255, 0.4), 0 -2px 8px, 0 0 2px, 0 0 5px #916BBF, 0 0 15px #C996CC, 0 0 2px #916BBF, 0 2px 3px #000;
+  }
+  20%,
+  21.999%,
+  63%,
+  63.999%,
+  65%,
+  69.999% {
+    opacity: 0.4;
+    text-shadow: none;
+  }
+}
+
+@font-face {
+	font-family: 'CoreCircus2DDot1';
+	src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_1_0.eot');
+	src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_1_0.eot?#iefix') format('embedded-opentype'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_1_0.woff2') format('woff2'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_1_0.woff') format('woff'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_1_0.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'CoreCircus';
+	src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.eot');
+	src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.eot?#iefix') format('embedded-opentype'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.woff2') format('woff2'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.woff') format('woff'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.ttf') format('truetype');
+}
+
