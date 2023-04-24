@@ -1,0 +1,11 @@
+{
+    "name": "jithi/htdocs",
+    "autoload": {
+        "psr-4": {
+            "Jithi\\Htdocs\\": "src/"
+        }
+    },
+    "require": {
+        "aws/aws-sdk-php": "^3.262"
+    }
+}
