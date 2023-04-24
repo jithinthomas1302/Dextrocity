@@ -42,5 +42,5 @@ performance opportunities
 * Xampp Server
 
 # Data Flow Diagram
-![Level 0 DFD of Dextrocity](Images and Videos/Level 0 DFD.png)
+![Level 0 DFD of Dextrocity](https://github.com/jithinthomas1302/Dextrocity/blob/main/Images%20and%20Videos/Level%200%20DFD.png?raw=true)
 
