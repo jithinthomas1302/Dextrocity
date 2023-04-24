@@ -44,3 +44,12 @@ performance opportunities
 # Data Flow Diagram
 ![Level 0 DFD of Dextrocity](https://github.com/jithinthomas1302/Dextrocity/blob/main/Images%20and%20Videos/Level%200%20DFD.png?raw=true)
 
+# Future Scope of Project
+The primary objective of Talentiva is to link artists with clients so that they can perform 
+at their events and earn money for their talent. The project's future scope includes hosting 
+it on other platforms, connecting it with social media links to the website, API's, and a 
+chat function where customers or artists may communicate with each other. The major feature that 
+would be incorporated in the future is the premium feature, which is a subscription for 
+artists and consumers to gain access to all content and read all facts about the 
+artist/customer that non-premium members do not have access to.
+
