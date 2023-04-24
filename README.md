@@ -42,5 +42,5 @@ performance opportunities
 * Xampp Server
 
 # Data Flow Diagram
-![Level 0 DFD of Dextrocity](relative/path/to/image.png)
+![Level 0 DFD of Dextrocity](Images and Videos/Level 0 DFD.png)
 
